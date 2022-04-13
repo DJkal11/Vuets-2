@@ -710,6 +710,198 @@ export default {
   padding: 1em;
 }
 
-@media screen and (min-width: 1200px) {
+@media (max-width: 425px){
+  .Section-1 {
+  width: 100%;
+  height: 34em;
+  text-align: center;
+  color: white;
+  }
+
+  .title-1 {
+  font-size: 2em;
+  padding-left: 1em;
+  padding-right: 1em;
+  margin-bottom: 0;
+  }
+
+  .overlap-1 {
+  width: 18em;
+  height: 50em;
+  margin-top: -3em;
+  margin-left: 1em;
+  margin-right: 5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.overlap-2 {
+  width: 20em;
+  margin-left: 0em;
+  height: 48em;
+}
+
+.overlap-1-item {
+  text-align: center;
+  padding: 1em;
+}
+.percentage {
+  font-size: 4em;
+  margin: 0;
+}
+
+.organizations {
+  padding-top: 40em;
+}
+
+.organization-group {
+  display: flex;
+  flex-direction: column;
+  padding: 3em;
+}
+
+.organization-item {
+  padding: 0.1em;
+}
+
+.organization-title {
+  margin-left: 0em;
+}
+
+.Section-3 {
+  padding-top:85em;
+  height: fit-content;
+}
+
+.section-3-group {
+  padding: 2em;
+  margin-left: 0em;
+  margin-right: 0em;
+  display: grid;
+  grid-template-columns: auto;
+  font-size: 0.6em;
+}
+
+.section-3-content {
+  font-size: 1.7em;
+  padding-left: 0em;
+  padding-right: 1.5em;
+}
+
+.section-3-title {
+  margin-left: 0em;
+  font-size: 2.5em;
+  padding: 1em;
+}
+
+.Section-4 {
+  background: rgb(0, 255, 250);
+  background: radial-gradient(
+    circle,
+    rgba(0, 255, 250, 1) 0%,
+    rgba(0, 58, 89, 1) 100%
+  );
+  color: white;
+}
+
+.section-4-title {
+  padding: 0em;
+  padding-left: 0em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.feature-group {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 0.5em;
+}
+
+.feature-card {
+  padding: 0em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  border-radius: 20px;
+}
+
+.feature-icon {
+  padding-left: 0.2em;
+}
+
+.div-btn {
+ padding-top: 2em;
+}
+
+.Section-4-btn {
+  width: 15em;
+  font-size: 1em;
+}
+
+.Section-5 {
+  padding: 0.5em;
+  height: fit-content;
+  color: black;
+}
+
+.section-5-icon {
+  font-size: 5em;
+  margin-top: 0.5em;
+  padding-right: 0em;
+}
+
+.section-5-content {
+  padding: 0.5em;
+  font-size: 0.6em;
+  text-align: left;
+}
+
+.slide {
+  padding: 0.1em;
+  height: 27em;
+}
+
+.section-5-card {
+  padding: 0em;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.contact-input {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: space-evenly;
+}
+
+.section-6-input {
+  width: 18em;
+
+}
+
+.section-6-textarea {
+  width: 18em;
+  padding-bottom: 1.7em;
+}
+
+.section-6-btn {
+  width: 10em;
+  border-radius: 20px;
+
+}
+
+.section-7-grid {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.section-7-features {
+  display: grid;
+  grid-template-columns: auto;
+  padding-right: 0em;
+}
+
+.hello {
+  overflow: hidden;
+}
 }
 </style>
